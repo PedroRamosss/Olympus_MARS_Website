@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <style>
+    .s { fill: none; stroke: #E8692A; stroke-linecap: round; stroke-linejoin: round; }
+    .f { fill: #E8692A; stroke: none; }
+    .fd { fill: #E8692A; opacity: 0.18; stroke: none; }
+    .fm { fill: #E8692A; opacity: 0.5; stroke: none; }
+  </style>
+
+  <!-- control panel / equipment box -->
+  <rect x="52" y="28" width="36" height="52" rx="4" class="s" stroke-width="2"/>
+  <rect x="52" y="28" width="36" height="52" rx="4" class="fd"/>
+  <!-- panel face plate -->
+  <rect x="57" y="34" width="26" height="16" rx="2" class="s" stroke-width="1.5"/>
+  <!-- display screen lines -->
+  <line x1="59" y1="39" x2="81" y2="39" class="s" stroke-width="1"/>
+  <line x1="59" y1="43" x2="75" y2="43" class="s" stroke-width="1"/>
+  <line x1="59" y1="47" x2="78" y2="47" class="s" stroke-width="1"/>
+  <!-- panel buttons row -->
+  <circle cx="61" cy="58" r="3" class="s" stroke-width="1.5"/>
+  <circle cx="61" cy="58" r="1.2" class="fm"/>
+  <circle cx="70" cy="58" r="3" class="s" stroke-width="1.5"/>
+  <circle cx="70" cy="58" r="1.2" class="f"/>
+  <circle cx="79" cy="58" r="3" class="s" stroke-width="1.5"/>
+  <!-- toggle switch -->
+  <rect x="59" y="66" width="10" height="5" rx="2.5" class="s" stroke-width="1.5"/>
+  <rect x="59" y="66" width="5.5" height="5" rx="2.5" class="fm"/>
+  <!-- dial -->
+  <circle cx="77" cy="68.5" r="4" class="s" stroke-width="1.5"/>
+  <line x1="77" y1="68.5" x2="79.5" y2="66.5" class="s" stroke-width="1.2"/>
+
+  <!-- robotic arm base -->
+  <rect x="10" y="54" width="12" height="8" rx="2" class="s" stroke-width="2"/>
+  <!-- shoulder joint -->
+  <circle cx="22" cy="58" r="4.5" class="s" stroke-width="2"/>
+  <circle cx="22" cy="58" r="1.8" class="f"/>
+
+  <!-- upper arm -->
+  <line x1="26" y1="58" x2="40" y2="48" class="s" stroke-width="3"/>
+  <!-- arm ribbing -->
+  <line x1="29" y1="57" x2="31" y2="54" class="s" stroke-width="1"/>
+  <line x1="34" y1="54" x2="36" y2="51" class="s" stroke-width="1"/>
+
+  <!-- elbow joint -->
+  <circle cx="40" cy="48" r="4.5" class="s" stroke-width="2"/>
+  <circle cx="40" cy="48" r="1.8" class="f"/>
+
+  <!-- forearm -->
+  <line x1="44" y1="48" x2="52" y2="52" class="s" stroke-width="2.5"/>
+
+  <!-- wrist joint -->
+  <circle cx="52" cy="52" r="3.5" class="s" stroke-width="1.8"/>
+  <circle cx="52" cy="52" r="1.4" class="f"/>
+
+  <!-- screwdriver / tool tip -->
+  <line x1="52" y1="48" x2="57" y2="38" class="s" stroke-width="2"/>
+  <!-- tool head -->
+  <polygon points="54,35 60,35 59,40 55,40" class="s" stroke-width="1.5" fill="none"/>
+  <polygon points="54,35 60,35 59,40 55,40" class="fm"/>
+  <!-- screw contact point spark -->
+  <line x1="59" y1="34" x2="62" y2="31" class="s" stroke-width="1"/>
+  <line x1="61" y1="35" x2="65" y2="34" class="s" stroke-width="1"/>
+  <line x1="60" y1="32" x2="63" y2="29" class="s" stroke-width="0.8"/>
+</svg>
